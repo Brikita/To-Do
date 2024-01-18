@@ -25,7 +25,7 @@ export const markCompleted = (id) => ({
   type: MARK_COMPLETED,
   payload: { id },
 });
-export const markInComplete = (id) => ({
+export const markIncomplete = (id) => ({
   type: MARK_INCOMPLETE,
   payload: { id },
 });

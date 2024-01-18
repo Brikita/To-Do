@@ -2,6 +2,7 @@
 
 import { Provider } from 'react-redux'
 import store from './redux/store'
+import Todo from './components/Todo'
 
 function App() {
   
@@ -9,7 +10,7 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-        <h1>Hello Developer</h1>
+        <Todo />
       </div>
       
     </Provider>
