@@ -34,7 +34,7 @@ const Todo = () => {
           id="addTodoInput"
           className="flex-grow p-2 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
           type="text"
-          placeholder="Add Todo"
+          placeholder="Add To-do"
           value={newTodoText}
           onChange={(e) => setNewTodoText(e.target.value)}
         />
